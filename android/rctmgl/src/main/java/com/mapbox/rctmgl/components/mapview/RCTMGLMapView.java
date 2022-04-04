@@ -1245,7 +1245,7 @@ public class RCTMGLMapView extends MapView implements OnMapReadyCallback, Mapbox
 
         final DisplayMetrics metrics = mContext.getResources().getDisplayMetrics();
 
-        double[] result = {left * metrics.scaledDensity, top * metrics.scaledDensity, right * metrics.scaledDensity, bottom * metrics.scaledDensity};
+        double[] result = {left * metrics.density, top * metrics.density, right * metrics.density, bottom * metrics.density};
         return result;
     }
 

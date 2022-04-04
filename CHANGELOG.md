@@ -25,6 +25,7 @@ The setup was changed - see install instructions for more details. In a nuthsell
 fix: add TypeScript type for MapViews's preferredFramesPerSecond prop ([#1717](https://github.com/rnmapbox/maps/pull/1717))  
 fix(example): update `/example` project (iOS only) to work with ARM-based Macs ([#1703](https://github.com/rnmapbox/maps/pull/1703))  
 fix(iOS): correct import of UIView+React.h header ([#1672](https://github.com/rnmapbox/maps/pull/1672))  
+fix(android): content insets uses the system font size ([#1823](https://github.com/rnmapbox/maps/issues/1823))
 
 ---
 
